@@ -1,5 +1,5 @@
 :root{
-    --gradient:linear-gradient(90deg, #f1c40f, #f39c12);
+    --gradient:linear-gradient(90deg, #f10fd3, #4d012d);
 }
 
 
@@ -15,7 +15,7 @@
 
 
 *::selection{
-    background:#f39c12;
+    background:#4d012d;
     color:#fff;
 }
 
@@ -33,7 +33,7 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-    background:linear-gradient(#f1c40f, #f39c12);
+    background:linear-gradient(#f10fd3, #4d012d);
 }
 
 /*ShowCase Area Style*/
@@ -148,13 +148,13 @@ body{
 }
 
 
-.about{
+.customers{
     display: flex;
     align-items:left;
     justify-content: center;
     flex-wrap: wrap;
-   
-    background:url(background_11_nQJIc9J.wide.jpeg) no-repeat;
+    width: 100%;
+    background:url(../images/images.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -163,24 +163,8 @@ body{
 
 
 
-.about .content{
-    flex:1 1 40rem;
-}
 
-.about .content h1{
-    font-size: 3rem;
-    color:#fd9c0a;
-    padding-top: 6%;
-    text-align: center;
-}
 
-.about .content h3{
-    font-size: 2rem;
-    color:rgb(255, 255, 255);
-    padding:1rem 0;
-    font-family: 'Open Sans', sans-serif;
-    text-align: justify;
-}
 
 
 
@@ -225,7 +209,7 @@ body{
 
 .course .content h1{
     font-size: 3rem;
-    color:#fd9c0a;
+    color:#4d012d;
     padding-top: 6%;
     text-align: center;
 }
@@ -238,7 +222,44 @@ body{
     text-align: justify;
 }
 
+table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 20px;
+    color: #300e2a;
+    width: 100%;
+    font-family: sans-serif;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 
+    }
+    th {
+        background-color: #320233;
+        color: #ffffff;
+        text-align: center;
+    }
+    td{
+        padding: 130x 15px;
+    }
+    tbody tr {
+        border-bottom: 1px solid #dddddd;
+    }
+    tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+    }
+    tbody tr:last-of-type {
+        border-bottom: 2px solid #320233;
+    }
+    tbody tr.active-row {
+        font-weight: bold;
+        color: #320233;
+    }
+    table {
+        border-collapse: collapse;
+      }
+      table, th, td {
+        border: 1px solid;
+      }
 
 
 

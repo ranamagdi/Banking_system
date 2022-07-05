@@ -23,8 +23,8 @@
 
     <nav class="navbar">
         <ul>
-            <li><a class="active" href="#home">home</a></li>
-            <li><a href="about.html">Customers</a></li>
+            <li><a class="active" href="Home.php">home</a></li>
+            <li><a href="customers_list.php">Customers</a></li>
             <li><a href="course.html">Transfers</a></li>
             <li><a href="login.html">Transfers History</a></li>
             
@@ -49,7 +49,7 @@
            <h3>contact info</h3>
             <p> <i class="map"></i> Spark foundation Group </p>
             <p> <i class="email"></i> GRIP@thesparksfoundation.sg </p>
-            <p> <i class="phone"></i> (+20 2) 26850617</p>
+            <p> <i class="phone"></i> (+91 ) 26850617</p>
   </footer>
 
 
