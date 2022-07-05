@@ -1,0 +1,248 @@
+:root{
+    --gradient:linear-gradient(90deg, #f1c40f, #f39c12);
+}
+
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    border:none; outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+
+*::selection{
+    background:#f39c12;
+    color:#fff;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar{
+    width:1.5rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:#333;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:linear-gradient(#f1c40f, #f39c12);
+}
+
+/*ShowCase Area Style*/
+.showcase {
+    text-align: center;
+    color:#fffefd;
+    padding-top: 15%;
+    height: 400px;
+    background-image:url(../images/InvestmentBanks-750x400.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+  }
+  .showcase h1 {
+    padding: 60px 0 20px 0;
+    font-size: 60px;
+  }
+  .showcase p {
+    padding: 10px;
+    font-size: 20px;
+  }
+section{
+    min-height: 100vh;
+    padding:1rem 7%;
+    padding-top:6rem;
+}
+
+
+
+.heading{
+    color:#444;
+    padding:1rem;
+    font-size: 4rem;
+    text-align: center;
+}
+
+/*Footer Style */
+footer {
+    padding: 27px;
+    text-align: center;
+    font-size: 16px;
+    background-color:#20201e;
+    color: #ffffff;
+    display: block;
+    width: 100%;
+  }
+  
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top:0; left: 0;
+    z-index: 1000;
+    padding:1.5rem 7%;
+    background:var(--gradient);
+    box-shadow: 0 .1rem .3rem rgba(0,0,0,.3);
+}
+
+
+
+header .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+header .navbar ul li{
+    margin:0 1rem;
+}
+
+header .navbar ul li a{
+    font-size: 2rem;
+    color:#fff;
+}
+
+header .navbar ul li a.active,
+header .navbar ul li a:hover{
+    color:rgb(29, 27, 27);
+}
+
+
+header #menu{
+    font-size: 3rem;
+    color:#fff;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+   
+    
+    position: relative;
+    text-align: center;
+}
+
+
+.home h1{
+    font-size: 4rem;
+    color:#35252f;
+    padding:4rem 0;
+    width:70rem;
+}
+
+
+.about{
+    display: flex;
+    align-items:left;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+    background:url(background_11_nQJIc9J.wide.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+
+.about .content{
+    flex:1 1 40rem;
+}
+
+.about .content h1{
+    font-size: 3rem;
+    color:#fd9c0a;
+    padding-top: 6%;
+    text-align: center;
+}
+
+.about .content h3{
+    font-size: 2rem;
+    color:rgb(255, 255, 255);
+    padding:1rem 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+
+
+
+
+.contact{
+    color: rgb(240, 231, 231);
+        background-color: rgba(45, 44, 73, 0.3);
+        min-width: 500px;
+        min-height: 200px;
+        
+}
+
+.contact .heading{
+    color:rgb(240, 235, 235);
+}
+
+.contact .row{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.course{
+    display: flex;
+    align-items:left;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+    background:url(cou.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.course .content{
+    flex:1 1 40rem;
+}
+
+.course .content h1{
+    font-size: 3rem;
+    color:#fd9c0a;
+    padding-top: 6%;
+    text-align: center;
+}
+
+.course .content h3{
+    font-size: 2rem;
+    color:rgb(255, 255, 255);
+    padding:1rem 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
