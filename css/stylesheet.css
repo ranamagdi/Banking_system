@@ -1,0 +1,10 @@
+
+    .card2{
+        color: #fff;
+        display: block;
+        background-color: rgba(245, 245, 245, 0.3);
+        min-width: 500px;
+        min-height: 500px;
+        border-radius: 15px;
+    }
+    

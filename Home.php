@@ -25,8 +25,8 @@
         <ul>
             <li><a class="active" href="Home.php">home</a></li>
             <li><a href="customers_list.php">Customers</a></li>
-            <li><a href="course.html">Transfers</a></li>
-            <li><a href="login.html">Transfers History</a></li>
+            <li><a href="Transfers.php">Transfers</a></li>
+            <li><a href="History.php">Transfers History</a></li>
             
         </ul>
     </nav>

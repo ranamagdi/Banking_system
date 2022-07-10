@@ -11,6 +11,7 @@
     text-decoration: none;
     text-transform: capitalize;
     transition: all .2s linear;
+   
 }
 
 
@@ -18,6 +19,15 @@
     background:#4d012d;
     color:#fff;
 }
+.card{
+    color: #fff;
+    display: block;
+    background-color: rgba(245, 245, 245, 0.3);
+    min-width: 500px;
+    min-height: 500px;
+    border-radius: 15px;
+}
+
 
 html{
     font-size: 62.5%;
@@ -80,7 +90,9 @@ footer {
     display: block;
     width: 100%;
   }
-  
+
+
+
 
 header{
     width: 100%;
@@ -94,7 +106,6 @@ header{
     background:var(--gradient);
     box-shadow: 0 .1rem .3rem rgba(0,0,0,.3);
 }
-
 
 
 header .navbar ul{
