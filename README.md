@@ -1,5 +1,5 @@
 # Banking_system
-This is the task1 of the spark web development internship
+This is the task1 of the sparks web and design development internship
 ## How to run 
 Clone this repo then create the same DB that you can find it in db/bank_system.sql 
 ## Deployment version
